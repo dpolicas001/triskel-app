@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-triskel-primary: #84B026;
+    --color-triskel-dark: #6E9320;
+    --color-triskel-lime: #9BD82C;
+    --color-triskel-bg: #0D0D0D;
+    --color-triskel-card: #18181B;
+    --color-triskel-surface: #1F1F23;
+  }
+
+  body {
+    background-color: #0D0D0D;
+    color: #F4F4F5;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Chakra Petch', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Industrial carbon texture & subtle grid */
+.industrial-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.metallic-border {
+  border: 1px solid rgba(132, 176, 38, 0.35);
+  box-shadow: 0 0 15px -3px rgba(132, 176, 38, 0.15);
+}
+
+.metallic-border-subtle {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-triskel {
+  box-shadow: 0 0 20px rgba(132, 176, 38, 0.25);
+}
+
+.text-triskel {
+  color: #84B026;
+}
+
+.bg-triskel {
+  background-color: #84B026;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #84B026;
+}

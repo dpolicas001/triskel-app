@@ -1,0 +1,8 @@
+{
+  "name": "Triskel Hybrid Training Club",
+  "description": "Sistema web de Reserva de Clases y Tracking de PRs para box de CrossFit y HYROX con diseño industrial y paleta oficial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
